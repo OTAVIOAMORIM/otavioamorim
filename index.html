@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mundo dos Peixes</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="p-5 text-center bg-primary text-white">
+        <h1>Bem-vindo ao Mundo dos Peixes</h1>
+        <p>Descubra as maravilhas do reino aquático</p>
+    </header>
+
+    <nav class="container d-flex justify-content-between align-items-center mt-4">
+        <img src="img/o-peixe-mais-bonito-do-mundo-interna-2 copy.jpg" alt="Logotipo Mundo dos Peixes" class="nav-img" loading="lazy">
+        <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tipos">Tipos de Peixes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main class="container my-5">
+        <section id="sobre" class="my-5">
+            <h2>Sobre os Peixes</h2>
+            <p>Os peixes são animais fascinantes que habitam rios, oceanos e lagos. Eles possuem uma incrível diversidade, desde pequenos peixinhos dourados até tubarões gigantes.</p>
+        </section>
+
+        <section id="tipos" class="my-5">
+            <h2>Tipos de Peixes</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Peixes Ósseos</h3>
+                    <p>Incluem espécies como o salmão e o atum.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Peixes Cartilaginosos</h3>
+                    <p>Tubarões e raias fazem parte desse grupo.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Agnatos</h3>
+                    <p>Peixes primitivos sem mandíbula, como as lampreias.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/peixe.jpg"img-fluid rounded-5" loading="lazy" alt="Peixe colorido">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/Sem título.jpg" loading="lazy" alt="Tubarão nadando">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5">
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1" placeholder="Digite seu nome">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1" placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4" placeholder="Sua mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="text-center p-3 bg-primary text-white">
+        <p>Siga nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Site desprovido de fins financeiros
